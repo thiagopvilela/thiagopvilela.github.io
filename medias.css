@@ -1,0 +1,323 @@
+/* MOBILE HEADER*/
+/* MOBILE HEADER*/
+/* MOBILE HEADER*/
+
+
+@media screen and (min-width:600px){
+    .mobileHeaderTitle, .mobileHeaderBtn{
+        display:none;
+    }
+
+    .mobileHeaderName, .mobileHeaderNav{
+        display:block;
+    }
+
+    .mobileHeaderName{
+        margin: 0 0 0 1rem;
+    }
+
+    .mobileHeaderNav{
+        display: flex;
+        margin: 0 1rem 0 0;
+    }
+
+    .mobileHeader{
+        justify-content: space-between;
+    }
+
+}
+
+@media screen and (max-width:440px){
+    .mobileHeaderBtn, .mobileHeaderBtn svg{
+        width:2rem;
+    }
+
+    .mobileHeaderTitle{
+        font-size:1.3rem;
+    }
+}
+
+@media screen and (max-width:250px){
+    .mobileHeaderBtn{
+        display:none;
+    }
+}
+
+@media screen and (min-width:680px){
+    .mobileHeaderName{
+        font-size:2.3rem;
+    }
+
+    .mobileHeaderNavLink{
+        font-size:1.1rem;
+    }
+}
+
+@media screen and (min-width:770px){
+    .mobileHeaderName{
+        margin: 0 0 0 2rem;
+    }
+
+    .mobileHeaderNav{
+        margin: 0 2rem 0 0;
+    }
+}
+
+@media screen and (min-width:820px){
+    .mobileHeaderName{
+        margin: 0 0 0 3.5rem;
+    }
+
+    .mobileHeaderNav{
+        margin: 0 3.5rem 0 0;
+    }
+}
+
+@media screen and (min-width:910px){
+    .mobileHeaderName{
+        margin: 0 0 0 4.5rem;
+    }
+
+    .mobileHeaderNav{
+        margin: 0 4.5rem 0 0;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .mobileHeader{
+        display:none;
+    }
+
+    .rightHeader{
+        display: flex;
+    }
+
+    .leftHeader{
+        display: flex;
+    }
+
+    .desktopHeader{
+        background:linear-gradient(to right,#240750 50%,#FF204E);
+    }
+}
+
+@media screen and (min-width:1100px){
+    .leftHeaderName{
+        font-size:2.2rem;
+    }
+
+    .leftHeaderTitle{
+        font-size:3.66rem;
+    }
+
+}
+
+@media screen and (min-width:1170px){
+    .leftHeaderName{
+        font-size:2.45rem;
+    }
+
+    .leftHeaderTitle{
+        font-size:4.08rem;
+    }
+}
+
+@media screen and (min-width:1266px){
+    .leftHeaderName{
+        font-size:2.7rem;
+    }
+
+    .leftHeaderTitle{
+        font-size:4.5rem;
+    }
+
+    .leftHeaderIcons svg{
+        width:3.5rem;
+    }
+}
+
+@media screen and (min-width:1500px){
+    .leftHeaderName{
+        font-size:3.2rem;
+    }
+
+    .leftHeaderTitle{
+        font-size:5.33rem;
+    }
+
+    .leftHeaderIcons svg{
+        width:3.85rem;
+    }
+}
+
+@media screen and (max-width:1560px){
+    .projetosContainer{
+        width:100%;
+    }
+}
+
+@media screen and (max-width:1260px){
+    .projetosContainer{
+        padding-top:1rem;
+    }
+
+    .projetos{
+        height:150%;
+    }
+}
+
+@media screen and (max-width:831.9px){
+    .projetos{
+        height:270%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .projeto{
+        transform: scale(.85);
+    }
+}
+
+@media screen and (max-width:395px){
+    .projeto{
+        transform: scale(.75);
+    }
+}
+
+@media screen and (max-width:332px){
+    .projeto{
+        transform: scale(.65);
+    }
+}
+
+@media screen and (max-width:1238px){
+    .contatoBoxHolder{
+        gap:6rem;
+    }
+
+    .contatoBox{
+        width:9rem;
+        height:11rem;
+    }
+
+    .contatoBoxTitle{
+        font-size:.9rem;
+    }
+    
+    .contatoBoxText{
+        font-size:.75rem;
+    }
+}
+
+@media screen and (max-width:882px){
+    .contatoBoxHolder{
+        gap:3rem;
+    }
+
+    .footerTitle{
+        font-size:2.1rem;
+    }
+    
+    .footerText1, .footerText2{
+        font-size:.85rem;
+    }
+    
+    .footerDownloadBtn{
+        padding:1.3rem;
+        font-size:1rem;
+    }
+}
+
+@media screen and (max-width:750px){
+    .contatoBox{
+        width:7rem;
+        height:9rem;
+    }
+
+    .contatoBoxTitle{
+        font-size:.7rem;
+    }
+    
+    .contatoBoxText{
+        font-size:.55rem;
+    }
+}
+
+@media screen and (max-width:705px){
+
+    .contatoBoxHolder{
+        gap:3rem;
+    }
+
+    .contatoBox{
+        width:5rem;
+        height:7rem;
+    }
+
+    .contatoBoxTitle{
+        font-size:.5rem;
+    }
+    
+    .contatoBoxText{
+        font-size:.35rem;
+    }
+}
+
+@media screen and (max-width:491px){
+    .contatoBoxHolder{
+        gap:.5rem;
+    }
+
+    .footerTitle{
+        font-size:1.5rem;
+    }
+    
+    .footerText1, .footerText2{
+        font-size:.65rem;
+    }
+    
+    .footerDownloadBtn{
+        padding:1.2rem 1rem;
+        font-size:.8rem;
+    }
+}
+
+@media screen and (max-width:371px){
+    .contatoBoxHolder{
+        gap:0rem;
+    }
+
+    .contatoBox{
+        width:4rem;
+        height:6rem;
+    }
+
+    
+    .contatoBoxText{
+        font-size:.35rem;
+    }
+
+
+}
+
+
+@media screen and (max-width:1220px){
+    .detailBox{
+        transform: scale(.8);
+    }
+
+    .leftDetailBoxTitle{
+        font-size:1.5rem;
+    }
+
+    .leftDetailBoxText{
+        font-size:.8rem;
+    }
+
+    .rightDetailBoxImage{
+        background-color: rgb(109, 109, 109);
+        width:80%;
+        height:15rem;
+        border:3px solid #FF204E;
+    }
+}

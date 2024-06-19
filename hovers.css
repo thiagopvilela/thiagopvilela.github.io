@@ -1,0 +1,61 @@
+.col1:hover, .col2:hover{
+    width:28.5%;
+}
+
+.col1:hover{
+    color:#FF204E;
+}
+
+.col2:hover{
+    color:#240750;
+}
+
+.leftHeaderIcons svg:hover{
+    fill:#FF204E;
+}
+
+.projeto:hover > .projetoBar{
+    transform: translateY(-4.5rem);
+}
+
+.rightDetailBoxNavLink:hover{
+    color: #FF204E;
+    background-color: white;
+}
+
+.rightDetailBoxCross svg:hover{
+    fill:#FF204E;
+}
+
+.projetoBarBtn:hover{
+    background-color: rgba(0, 0, 0, 0.308);
+    color:#FF204E;
+    border:2px solid white;
+}
+
+.projeto:hover > .projetoHolder > .projetoImage{
+    opacity:.2;
+}
+
+.projeto:hover > .projetoHolder > .projetoHolderTitle{
+    color:#FF204E;
+}
+
+.projeto:hover{
+    border:2px solid #FF204E;
+}
+
+.footerDownloadBtn:hover{
+    color:#FF204E;
+    background-color: white;
+    border-bottom:5px solid gray;
+}
+
+.contatoBox a:hover{
+    color:#FF204E;
+}
+
+.contatoBox svg:hover{
+    fill:white;
+    filter: drop-shadow(3px -3px 0px #FF204E);
+}
